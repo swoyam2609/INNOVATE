@@ -34,4 +34,9 @@ object userConstant{
 
         return usersArray
     }
+
+    fun getProjects():ArrayList<project>{
+        val userProject : ArrayList<project> = ArrayList<project>()
+        return userProject
+    }
 }
