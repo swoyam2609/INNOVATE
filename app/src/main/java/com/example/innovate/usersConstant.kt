@@ -32,11 +32,26 @@ object userConstant{
         )
         usersArray.add(user2)
 
+        val user3 = userProfile(
+            "Anirudh Parida",
+            R.drawable.userswoyam,
+            18,
+            46,
+            574,
+            2,
+            ArrayList<project>(),
+            "anirudh0812",
+            "anirudh08"
+        )
+        usersArray.add(user3)
+
         return usersArray
     }
+
 
     fun getProjects():ArrayList<project>{
         val userProject : ArrayList<project> = ArrayList<project>()
         return userProject
     }
+
 }
