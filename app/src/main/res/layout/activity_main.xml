@@ -60,9 +60,11 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/tvIncorrectPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="a"
+        tools:text="Incorrect Password"
+        tools:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

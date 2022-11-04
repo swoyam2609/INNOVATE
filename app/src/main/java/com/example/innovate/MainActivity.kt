@@ -3,6 +3,7 @@ package com.example.innovate
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.example.innovate.databinding.ActivityMainBinding
 import com.example.innovate.userConstant.getUsers
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                             finish()
                         }
                         else{
-                            Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
+                            binding?.tvIncorrectPassword?.visibility = View.VISIBLE
                         }
                     }
                     else{
