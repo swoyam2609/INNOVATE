@@ -28,7 +28,7 @@ object userConstant{
             2,
             ArrayList<project>(),
             "princeX04",
-            "Somu@123"
+            "prince##2003"
         )
         usersArray.add(user2)
 
