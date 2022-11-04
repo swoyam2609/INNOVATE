@@ -7,7 +7,8 @@ data class project(
     val noViews : Int,
     val noComments : Int,
     val problem : String,
-    val moreProblems : String,
+    val moreDetails : String,
     val aboutProject : String,
-    val projectVideo : Int
+    val projectVideo : Int,
+    val creators : ArrayList<userProfile>
 )
