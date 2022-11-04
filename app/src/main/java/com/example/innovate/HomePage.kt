@@ -1,5 +1,6 @@
 package com.example.innovate
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.innovate.databinding.ActivityHomePageBinding
@@ -17,8 +18,12 @@ class HomePage : AppCompatActivity() {
 
         val currentUser : userProfile? = thisUser
 
-        binding?.textView?.text=currentUser?.name
-
+        binding?.userName?.text=currentUser?.shortName
+        currentUser?.userImage?.let { binding?.userImageId?.setImageResource(it) }
+        binding?.navigationBarButton?.setOnClickListener {
+            //val intent = Intent(this, NavigationDrawer::class.java)
+            //startActivity(intent)
+        }
 
 
 

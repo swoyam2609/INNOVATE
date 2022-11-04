@@ -7,6 +7,7 @@ object userConstant{
         val usersArray : ArrayList<userProfile> = ArrayList<userProfile>()
 
         val user1 = userProfile(
+            "Swoyam",
             "Swoyam Siddharth Nayak",
             R.drawable.userswoyam,
             18,
@@ -20,6 +21,7 @@ object userConstant{
         usersArray.add(user1)
 
         val user2 = userProfile(
+            "Prince",
             "Prince Pious Omm Prakash",
             R.drawable.userswoyam,
             18,
@@ -33,6 +35,7 @@ object userConstant{
         usersArray.add(user2)
 
         val user3 = userProfile(
+            "Anirudh",
             "Anirudh Parida",
             R.drawable.userswoyam,
             18,
@@ -53,7 +56,7 @@ object userConstant{
         val userProject : ArrayList<project> = ArrayList<project>()
 
         val project1 = project(
-            R.drawable.Project_Pic,
+            R.drawable.projectpic,
             R.drawable.benfits,
             1200,
             2300,

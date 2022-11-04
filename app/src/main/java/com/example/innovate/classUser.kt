@@ -1,6 +1,7 @@
 package com.example.innovate
 
 data class userProfile(
+    val shortName: String,
     val name : String,
     val userImage : Int,
     val noProjects : Int,
