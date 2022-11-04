@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.innovate.databinding.ActivityMainBinding
+import com.example.innovate.userConstant.getUsers
+import com.example.innovate.userConstant.thisUser
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,8 +22,22 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Enter your User Name", Toast.LENGTH_LONG).show()
             }
             else {
-                val intent = Intent(this,ExcerciseAcitivity::class.java)
-                startActivity(intent)
+                val users : ArrayList<userProfile> = getUsers()
+                for(i in users){
+                    if(binding?.etUserName?.text?.toString()==i.userName) {
+                        if(binding?.etPassword?.text?.toString()==i.userPassword){
+                            val intent = Intent(this, HomePage::class.java)
+                            startActivity(intent)
+                            finish()
+                        }
+                        else{
+                            Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
+                        }
+                    }
+                    else{
+                        Toast.makeText(this, "Incorrect UserName", Toast.LENGTH_SHORT).show()
+                    }
+                }
             }
         }
 

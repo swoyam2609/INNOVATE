@@ -1,7 +1,8 @@
 package com.example.innovate
 
-data class userImage(
-    val userInmage : Int,
+data class userProfile(
+    val name : String,
+    val userImage : Int,
     val noProjects : Int,
     val noIdeas : Int,
     val noFollowers : Int,
