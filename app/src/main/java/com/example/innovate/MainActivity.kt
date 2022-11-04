@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
             if (binding?.etUserName?.text?.isEmpty() == true){
                 Toast.makeText(this, "Enter your User Name", Toast.LENGTH_LONG).show()
             }
+            else {
+                val intent = Intent(this,ExcerciseAcitivity::class.java)
+                startActivity(intent)
+            }
         }
 
     }
