@@ -1,6 +1,7 @@
 package com.example.innovate
 
 data class project(
+    val projectName : String,
     val projectImage : Int,
     val benefitsImage : Int,
     val noLikes : Int,
