@@ -28,5 +28,6 @@ class HomePage : AppCompatActivity() {
             val intent = Intent(this, MyProfile::class.java)
             startActivity(intent)
         }
+
     }
 }

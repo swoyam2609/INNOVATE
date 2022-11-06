@@ -1,0 +1,26 @@
+package com.example.innovate
+
+import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.MediaController
+import android.widget.VideoView
+import com.example.innovate.databinding.ActivityProjectActicityBinding
+
+class ProjectActicity : AppCompatActivity() {
+    private var binding : ActivityProjectActicityBinding? = null
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityProjectActicityBinding.inflate(layoutInflater)
+        setContentView(binding?.root)
+        var mediaControls: MediaController? = null
+        if (mediaControls == null) {
+            mediaControls = MediaController(this)
+            mediaControls.setAnchorView(binding?.videoplayer)
+        }
+        binding?.videoplayer?.setMediaController(mediaControls)
+        binding?.videoplayer?.setVideoURI(Uri.parse("android.resource://" + packageName + "/" + R.raw.pexels))
+        binding?.videoplayer?.requestFocus()
+        binding?.videoplayer?.start()
+    }
+}

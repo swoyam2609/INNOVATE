@@ -1,5 +1,6 @@
 package com.example.innovate
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.innovate.databinding.ActivityHomePageBinding
@@ -22,6 +23,31 @@ class MyProfile : AppCompatActivity() {
         binding?.noFollowers?.text=currentUser?.noFollowers.toString()
         binding?.noIdeas?.text=currentUser?.noIdeas.toString()
         binding?.noProjects?.text=currentUser?.noProjects.toString()
+
+        binding?.readmore1?.setOnClickListener {
+            val intent = Intent(this, ProjectActicity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.tvReadMore2?.setOnClickListener {
+            val intent = Intent(this, ProjectActicity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.tvReadMore3?.setOnClickListener {
+            val intent = Intent(this, ProjectActicity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.tvReadMore4?.setOnClickListener {
+            val intent = Intent(this, ProjectActicity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.tvReadMore5?.setOnClickListener {
+            val intent = Intent(this, ProjectActicity::class.java)
+            startActivity(intent)
+        }
 
 
 
