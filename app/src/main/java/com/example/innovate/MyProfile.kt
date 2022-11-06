@@ -24,5 +24,7 @@ class MyProfile : AppCompatActivity() {
         binding?.noProjects?.text=currentUser?.noProjects.toString()
 
 
+
+
     }
 }
