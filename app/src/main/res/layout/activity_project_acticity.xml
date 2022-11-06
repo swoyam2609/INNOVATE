@@ -274,11 +274,15 @@ years from complete eradication.
                 android:orientation="horizontal"
                 android:layout_marginBottom="5sp">
 
-                <ImageView
-                    android:layout_width="0sp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/prince"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageId1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/prince"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -299,11 +303,15 @@ years from complete eradication.
                 android:orientation="horizontal"
                 android:layout_marginBottom="5sp">
 
-                <ImageView
-                    android:layout_width="0sp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/anirudh"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageId2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/anirudh"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -323,11 +331,15 @@ years from complete eradication.
                 android:orientation="horizontal"
                 android:layout_marginBottom="5sp">
 
-                <ImageView
-                    android:layout_width="0sp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/subhank"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageId3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/subhank"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -348,11 +360,15 @@ years from complete eradication.
                 android:orientation="horizontal"
                 android:layout_marginBottom="5sp">
 
-                <ImageView
-                    android:layout_width="0sp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/aditya"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageId4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/aditya"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -373,11 +389,15 @@ years from complete eradication.
                 android:orientation="horizontal"
                 android:layout_marginBottom="5sp">
 
-                <ImageView
-                    android:layout_width="0sp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/trideep"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageId5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/trideep"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FF000000"/>
 
                 <TextView
                     android:layout_width="0sp"
