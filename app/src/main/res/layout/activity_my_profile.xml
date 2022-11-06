@@ -23,6 +23,7 @@
             android:textColor="#B9FFFFFF"
             android:gravity="center"
             android:textSize="30dp"
+            android:textStyle="bold"
             android:layout_marginBottom="15dp"
             android:layout_marginTop="5dp"/>
 
@@ -70,12 +71,13 @@
 
             </LinearLayout>
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/userImageId"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                tools:src="@drawable/userswoyam" />
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/userswoyam"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
 
         </LinearLayout>
@@ -83,7 +85,7 @@
 <!--        About Info-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@color/bgTab"
+            android:background="@drawable/round_corners_1"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="7sp"
@@ -103,6 +105,7 @@
                 android:text="@string/AboutInfo"
                 android:textColor="#BEFFFFFF"
                 android:textSize="14sp"/>
+
 
         </LinearLayout>
 
@@ -212,6 +215,104 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/round_corners_1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/round_corners_2"
+                android:layout_marginBottom="7dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My Projects"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_read_more_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="read more..."
+                    android:gravity="right"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_read_more_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="read more..."
+                    android:gravity="right"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_read_more_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="read more..."
+                    android:gravity="right"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
