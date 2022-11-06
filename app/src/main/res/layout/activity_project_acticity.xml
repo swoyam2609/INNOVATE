@@ -277,7 +277,7 @@ years from complete eradication.
                     android:layout_width="0sp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/userswoyam"/>
+                    android:src="@drawable/prince"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -302,7 +302,7 @@ years from complete eradication.
                     android:layout_width="0sp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/userswoyam"/>
+                    android:src="@drawable/anirudh"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -326,7 +326,7 @@ years from complete eradication.
                     android:layout_width="0sp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/userswoyam"/>
+                    android:src="@drawable/subhank"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -351,7 +351,7 @@ years from complete eradication.
                     android:layout_width="0sp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/userswoyam"/>
+                    android:src="@drawable/aditya"/>
 
                 <TextView
                     android:layout_width="0sp"
@@ -376,7 +376,7 @@ years from complete eradication.
                     android:layout_width="0sp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/userswoyam"/>
+                    android:src="@drawable/trideep"/>
 
                 <TextView
                     android:layout_width="0sp"

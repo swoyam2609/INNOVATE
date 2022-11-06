@@ -44,11 +44,12 @@
                 android:orientation="vertical"
                 android:layout_marginRight="10dp">
 
-                <Button
-                    android:id="@+id/navigationBarButton"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    />
+                <ImageView
+                    android:id="@+id/back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#071622"
+                    android:src="@drawable/App_BAr" />
 
                 <TextView
                     android:id="@+id/userName"
@@ -276,13 +277,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI"
+                    android:text="PAPR"
                     android:textColor="@color/white"
                     android:textSize="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:text="Being viewed as a viable alternative to available professional care or delaying seeking professional care. This should be viewed as an educational resource or a last resort option only."
                     android:textColor="#AEFFFFFF"
                     android:textStyle="normal"
                     android:textSize="14sp" />
@@ -313,13 +314,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI"
+                    android:text="SWASNER"
                     android:textColor="@color/white"
                     android:textSize="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:text="Swasner which is a hyperbaric chamber which is designed to treat ARDS patients, a primary disease caused by Coronavirus. On metric it reduces dependency on ventilator and also requires the patient to spend less time with the ventilator."
                     android:textColor="#AEFFFFFF"
                     android:textStyle="normal"
                     android:textSize="14sp" />
@@ -350,13 +351,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI"
+                    android:text="Sync Up"
                     android:textColor="@color/white"
                     android:textSize="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:text="Develop a technology-based solution for Kids, Senior citizens, especially abled individual on any one who need supervision which can alarm the concerned person in case person who need supervision is crossing a specified boundary for eg 10 meters outside a specified boundary."
                     android:textColor="#AEFFFFFF"
                     android:textStyle="normal"
                     android:textSize="14sp" />
@@ -387,13 +388,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI"
+                    android:text="BOOKERS’"
                     android:textColor="@color/white"
                     android:textSize="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
+                    android:text="BOOKERS' is all about fulfilling the demands of our users and its our for most importance that we serve you all the best. If your cravings for a new book starts just after finishing one."
                     android:textColor="#AEFFFFFF"
                     android:textStyle="normal"
                     android:textSize="14sp" />
