@@ -17,14 +17,14 @@ class MyProfile : AppCompatActivity() {
         setContentView(binding?.root)
 
         val currentUser : userProfile? = userConstant.thisUser
-        binding?.userName?.text=currentUser?.shortName
+        binding?.userName?.text=currentUser?.name
         currentUser?.userImage?.let { binding?.userImageId?.setImageResource(it) }
         binding?.noAwards?.text= currentUser?.noAwards.toString()
         binding?.noFollowers?.text=currentUser?.noFollowers.toString()
         binding?.noIdeas?.text=currentUser?.noIdeas.toString()
         binding?.noProjects?.text=currentUser?.noProjects.toString()
 
-        binding?.readmore1?.setOnClickListener {
+        binding?.tvReadMore6?.setOnClickListener {
             val intent = Intent(this, ProjectActicity::class.java)
             startActivity(intent)
         }
