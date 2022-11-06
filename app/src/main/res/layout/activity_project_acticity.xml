@@ -209,12 +209,13 @@ years from complete eradication.
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
 
                 <VideoView
                     android:id="@+id/videoplayer"
                     android:layout_width="match_parent"
-                    android:layout_height="200sp"/>
+                    android:layout_height="250sp"/>
 
             </FrameLayout>
 
