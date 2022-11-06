@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/AboutInfo"
                 android:textColor="#BEFFFFFF"
-                android:textSize="12sp"/>
+                android:textSize="15sp"/>
 
 
         </LinearLayout>
@@ -226,6 +226,7 @@
                 android:textSize="25dp"/>
 
             <LinearLayout
+                android:id="@+id/tvReadMore5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -327,6 +328,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/tvReadMore4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -428,6 +430,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/tvReadMore3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -529,6 +532,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/tvReadMore2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -630,6 +634,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/tvReadMore6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"

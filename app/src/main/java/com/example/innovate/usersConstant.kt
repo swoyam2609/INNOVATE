@@ -8,7 +8,7 @@ object userConstant{
 
         val user1 = userProfile(
             "Swoyam",
-            "Swoyam Siddharth Nayak",
+            "Swoyam Siddharth",
             R.drawable.userswoyam,
             18,
             46,
@@ -22,7 +22,7 @@ object userConstant{
 
         val user2 = userProfile(
             "Prince",
-            "Prince Pious Omm Prakash",
+            "Prince Pious",
             R.drawable.userswoyam,
             18,
             46,
