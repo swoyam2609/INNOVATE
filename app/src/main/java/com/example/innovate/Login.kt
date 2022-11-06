@@ -36,9 +36,6 @@ class Login : AppCompatActivity() {
                             Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
                         }
                     }
-                    else{
-                        Toast.makeText(this, "Incorrect UserName", Toast.LENGTH_SHORT).show()
-                    }
                 }
             }
         }

@@ -518,7 +518,7 @@
                     android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
                     android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="18dp"
+                    android:textSize="15sp"
                     android:layout_marginBottom="5dp"/>
 
                 <LinearLayout
@@ -620,7 +620,7 @@
                     android:text="Forte is a flexible and powerful ML workflow builder. This is part of the CASL project"
                     android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="18dp"
+                    android:textSize="15sp"
                     android:layout_marginBottom="5dp"/>
 
                 <LinearLayout
@@ -722,7 +722,7 @@
                     android:text="Research project on heterogeneous IoT protocols modelling"
                     android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="18dp"
+                    android:textSize="15sp"
                     android:layout_marginBottom="5dp"/>
 
                 <LinearLayout
@@ -824,7 +824,7 @@
                     android:text="A Shopping App built with Kotlin. Project listed on Google Dev Library"
                     android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="18dp"
+                    android:textSize="15sp"
                     android:layout_marginBottom="5dp"/>
 
                 <LinearLayout
@@ -926,7 +926,7 @@
                     android:text="Club server project by the UofT Skule Web-Dev Club"
                     android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="18dp"
+                    android:textSize="15sp"
                     android:layout_marginBottom="5dp"/>
 
                 <LinearLayout
