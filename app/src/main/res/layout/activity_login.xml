@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:hint="Phone, E-mail or Username"
+            android:hint="E-mail or Username"
             android:textColorHint="#808080"
             android:textColor="#808080"
             android:inputType="text"
