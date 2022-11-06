@@ -24,7 +24,7 @@ class HomePage : AppCompatActivity() {
             //val intent = Intent(this, NavigationDrawer::class.java)
             //startActivity(intent)
         }
-        binding?.profileImage?.setOnClickListener {
+        binding?.userImageId?.setOnClickListener {
             val intent = Intent(this, MyProfile::class.java)
             startActivity(intent)
         }
