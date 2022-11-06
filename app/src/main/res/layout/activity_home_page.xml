@@ -62,12 +62,13 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/userImageId"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                tools:src="@drawable/userswoyam" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/userswoyam"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
 
         </LinearLayout>
@@ -77,8 +78,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="@drawable/round_corners_1"
             android:layout_gravity="center_horizontal"
-            android:background="@color/bgTab"
             android:paddingTop="3dp"
             android:paddingBottom="10dp"
             android:layout_marginBottom="15dp">
@@ -474,14 +475,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="5dp"
-            android:background="@color/bgTab">
+            android:background="@drawable/round_corners_1">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:background="@drawable/round_corners_3"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -573,8 +574,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:background="@drawable/round_corners_3"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -667,7 +668,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -760,7 +761,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -853,7 +854,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -946,7 +947,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -1039,7 +1040,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -1132,7 +1133,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -1225,7 +1226,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="7dp"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
@@ -1317,7 +1318,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/bgTab"
+                android:background="@drawable/round_corners_3"
                 android:paddingStart="7dp"
                 android:paddingEnd="7dp"
                 android:paddingTop="3dp"
