@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                             finish()
                         }
                         else{
-                            binding?.tvIncorrectPassword?.visibility = View.VISIBLE
+                            Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
                         }
                     }
                     else{
