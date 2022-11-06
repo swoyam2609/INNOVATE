@@ -17,31 +17,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
-        thisUser = null
 
-        binding?.btnLogin?.setOnClickListener {
-            if (binding?.etUserName?.text?.isEmpty() == true){
-                Toast.makeText(this, "Enter your User Name", Toast.LENGTH_LONG).show()
-            }
-            else {
-                val users : ArrayList<userProfile> = getUsers()
-                for(i in users){
-                    if(binding?.etUserName?.text?.toString()==i.userName) {
-                        if(binding?.etPassword?.text?.toString()==i.userPassword){
-                            val intent = Intent(this, HomePage::class.java)
-                            thisUser=i
-                            startActivity(intent)
-                            finish()
-                        }
-                        else{
-                            Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
-                        }
-                    }
-                    else{
-                        Toast.makeText(this, "Incorrect UserName", Toast.LENGTH_SHORT).show()
-                    }
-                }
-            }
+        binding?.signinButton?.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
         }
 
     }
