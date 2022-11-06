@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:gravity="bottom"
+            android:gravity="top"
             android:layout_marginBottom="15dp">
 
             <LinearLayout
@@ -45,11 +45,9 @@
                 android:layout_marginRight="10dp">
 
                 <ImageView
-                    android:id="@+id/back_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:background="#071622"
-                    android:src="@drawable/App_BAr" />
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/appbar"/>
 
                 <TextView
                     android:id="@+id/userName"
@@ -110,7 +108,8 @@
             android:orientation="horizontal"
             android:paddingStart="30sp"
             android:paddingEnd="30sp"
-            android:layout_marginBottom="10sp">
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="25sp">
 
             <LinearLayout
                 android:layout_width="0sp"
@@ -214,8 +213,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp"
-            android:background="@drawable/round_corners_1">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -223,7 +221,7 @@
                 android:text="My Projects"
                 android:textColor="@color/white"
                 android:layout_marginStart="7sp"
-                android:layout_marginBottom="3sp"
+                android:layout_marginBottom="10sp"
                 android:textStyle="bold"
                 android:textSize="25dp"/>
 
@@ -231,35 +229,100 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginBottom="7dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp">
+                android:background="@drawable/round_corners_3"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
+                    android:text="docker-iot-dashboard"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TRAHI as a product envisions a world with zero incidence of female rape, sexual assault, or any similar threat or physical attack via wearable technology combined with style. "
-                    android:textColor="#AEFFFFFF"
+                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
+                    android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="14sp" />
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp"/>
 
-                <TextView
-                    android:id="@+id/readmore1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="read more..."
-                    android:gravity="right"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/viewsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="1.5K"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/likesnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="512"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/commentsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="126"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -267,36 +330,100 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/round_corners_2"
-                android:layout_marginBottom="7dp"
-                android:paddingStart="10sp"
-                android:paddingEnd="10sp"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp">
+                android:background="@drawable/round_corners_3"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="PAPR"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
+                    android:text="docker-iot-dashboard"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Being viewed as a viable alternative to available professional care or delaying seeking professional care. This should be viewed as an educational resource or a last resort option only."
-                    android:textColor="#AEFFFFFF"
+                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
+                    android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="14sp" />
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp"/>
 
-                <TextView
-                    android:id="@+id/tv_read_more_2"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="read more..."
-                    android:gravity="right"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/viewsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="1.5K"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/likesnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="512"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/commentsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="126"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -304,36 +431,100 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/round_corners_2"
-                android:layout_marginBottom="7dp"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp">
+                android:background="@drawable/round_corners_3"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SWASNER"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
+                    android:text="docker-iot-dashboard"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Swasner which is a hyperbaric chamber which is designed to treat ARDS patients, a primary disease caused by Coronavirus. On metric it reduces dependency on ventilator and also requires the patient to spend less time with the ventilator."
-                    android:textColor="#AEFFFFFF"
+                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
+                    android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="14sp" />
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp"/>
 
-                <TextView
-                    android:id="@+id/tv_read_more_5"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="read more..."
-                    android:gravity="right"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/viewsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="1.5K"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/likesnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="512"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/commentsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="126"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -341,36 +532,100 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/round_corners_2"
-                android:layout_marginBottom="7dp"
-                android:paddingStart="10sp"
-                android:paddingEnd="10sp"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp">
+                android:background="@drawable/round_corners_3"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sync Up"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
+                    android:text="docker-iot-dashboard"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Develop a technology-based solution for Kids, Senior citizens, especially abled individual on any one who need supervision which can alarm the concerned person in case person who need supervision is crossing a specified boundary for eg 10 meters outside a specified boundary."
-                    android:textColor="#AEFFFFFF"
+                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
+                    android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="14sp" />
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp"/>
 
-                <TextView
-                    android:id="@+id/tv_read_more_3"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="read more..."
-                    android:gravity="right"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/viewsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="1.5K"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/likesnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="512"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/commentsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="126"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -378,36 +633,100 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/round_corners_2"
-                android:layout_marginBottom="0sp"
-                android:paddingStart="10sp"
-                android:paddingEnd="10sp"
-                android:paddingTop="3dp"
-                android:paddingBottom="3dp">
+                android:background="@drawable/round_corners_3"
+                android:layout_marginBottom="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="BOOKERS’"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"/>
+                    android:text="docker-iot-dashboard"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="BOOKERS' is all about fulfilling the demands of our users and its our for most importance that we serve you all the best. If your cravings for a new book starts just after finishing one."
-                    android:textColor="#AEFFFFFF"
+                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
+                    android:textColor="@color/black"
                     android:textStyle="normal"
-                    android:textSize="14sp" />
+                    android:textSize="18dp"
+                    android:layout_marginBottom="5dp"/>
 
-                <TextView
-                    android:id="@+id/tv_read_more_4"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="read more..."
-                    android:gravity="right"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:paddingStart="20sp"
+                    android:paddingEnd="20sp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/viewsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="1.5K"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/likesnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="512"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/commentsnew"
+                        android:paddingTop="3sp"
+                        android:paddingBottom="3sp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="126"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:layout_marginEnd="5dp"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 

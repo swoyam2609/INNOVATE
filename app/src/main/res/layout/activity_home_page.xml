@@ -18,6 +18,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INNOVATE"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="15sp"/>
+
 
 <!--        Name and Dp-->
         <LinearLayout
@@ -35,11 +45,10 @@
                 android:orientation="vertical"
                 android:layout_marginRight="10dp">
 
-                <Button
-                    android:id="@+id/navigationBarButton"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    />
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/appbar"/>
 
                 <TextView
                     android:id="@+id/userName"
@@ -119,7 +128,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="@color/white"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -192,7 +201,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="@color/white"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -265,7 +274,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="@color/white"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -338,7 +347,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="@color/white"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -411,7 +420,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="@color/white"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -537,7 +546,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start |center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -557,7 +566,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start | center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -577,7 +586,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="center | start"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -638,7 +647,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start |center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -658,7 +667,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start | center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -678,7 +687,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="center | start"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -739,7 +748,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start |center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -759,7 +768,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start | center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -779,7 +788,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="center | start"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -840,7 +849,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start |center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -860,7 +869,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start | center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -880,7 +889,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="center | start"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -941,7 +950,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start |center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -961,7 +970,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start | center"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
@@ -981,209 +990,7 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="center | start"
-                        android:layout_marginEnd="5dp"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/round_corners_3"
-                android:layout_marginBottom="15dp"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="15dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="docker-iot-dashboard"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
-                    android:textColor="@color/black"
-                    android:textStyle="normal"
-                    android:textSize="18dp"
-                    android:layout_marginBottom="5dp"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    android:paddingStart="20sp"
-                    android:paddingEnd="20sp">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="1.5K"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="start |center"
-                        android:layout_marginEnd="5dp"/>
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="512"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="start | center"
-                        android:layout_marginEnd="5dp"/>
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="126"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="center | start"
-                        android:layout_marginEnd="5dp"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/round_corners_3"
-                android:layout_marginBottom="15dp"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="15dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="docker-iot-dashboard"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="25dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" A complete IoT server for LoRaWAN IoT projects: node-red + influxdb + grafana + ssl + let's encrypt using dock..."
-                    android:textColor="@color/black"
-                    android:textStyle="normal"
-                    android:textSize="18dp"
-                    android:layout_marginBottom="5dp"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    android:paddingStart="20sp"
-                    android:paddingEnd="20sp">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="1.5K"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="start |center"
-                        android:layout_marginEnd="5dp"/>
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="512"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="start | center"
-                        android:layout_marginEnd="5dp"/>
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
-                        android:paddingTop="3sp"
-                        android:paddingBottom="3sp"
-                        android:layout_marginEnd="5dp"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="2"
-                        android:layout_height="match_parent"
-                        android:text="126"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
-                        android:textStyle="normal"
-                        android:gravity="center | start"
+                        android:gravity="start"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>

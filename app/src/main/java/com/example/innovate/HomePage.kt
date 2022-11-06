@@ -20,10 +20,6 @@ class HomePage : AppCompatActivity() {
 
         binding?.userName?.text=currentUser?.shortName
         currentUser?.userImage?.let { binding?.userImageId?.setImageResource(it) }
-        binding?.navigationBarButton?.setOnClickListener {
-            //val intent = Intent(this, NavigationDrawer::class.java)
-            //startActivity(intent)
-        }
         binding?.userImageId?.setOnClickListener {
             val intent = Intent(this, MyProfile::class.java)
             startActivity(intent)
