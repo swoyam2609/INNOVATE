@@ -179,7 +179,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TRAHI"
+                        android:text="PAPR"
                         android:textSize="20sp"
                         android:layout_marginStart="15sp"
                         android:layout_marginEnd="15sp"
@@ -209,7 +209,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1.2K"
+                            android:text="965"
                             android:textColor="@color/white"/>
 
 
@@ -229,7 +229,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="420"
+                            android:text="200"
                             android:textColor="@color/white"/>
 
 
@@ -252,7 +252,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TRAHI"
+                        android:text="SWASNER"
                         android:textSize="20sp"
                         android:layout_marginStart="15sp"
                         android:layout_marginEnd="15sp"
@@ -282,7 +282,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1.2K"
+                            android:text="1.3K"
                             android:textColor="@color/white"/>
 
 
@@ -302,7 +302,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="420"
+                            android:text="450"
                             android:textColor="@color/white"/>
 
 
@@ -325,7 +325,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TRAHI"
+                        android:text="SYNC UP"
                         android:textSize="20sp"
                         android:layout_marginStart="15sp"
                         android:layout_marginEnd="15sp"
@@ -355,7 +355,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1.2K"
+                            android:text="2.1K"
                             android:textColor="@color/white"/>
 
 
@@ -375,7 +375,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="420"
+                            android:text="520"
                             android:textColor="@color/white"/>
 
 
@@ -398,7 +398,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TRAHI"
+                        android:text="BOOKERS"
                         android:textSize="20sp"
                         android:layout_marginStart="15sp"
                         android:layout_marginEnd="15sp"
@@ -428,7 +428,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1.2K"
+                            android:text="1.8K"
                             android:textColor="@color/white"/>
 
 
@@ -448,7 +448,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="420"
+                            android:text="475"
                             android:textColor="@color/white"/>
 
 
