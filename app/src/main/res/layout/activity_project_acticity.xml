@@ -59,15 +59,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1.3 K"
-                        android:textColor="#B7FFFFFF"
+                        android:text="1.3K"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
                         android:textSize="30sp"
                         android:layout_marginEnd="5sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likes"/>
+                        android:src="@drawable/heart_dashboard"/>
 
                 </LinearLayout>
 
@@ -88,15 +89,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1.3 K"
-                        android:textColor="#B7FFFFFF"
+                        android:text="2.3K"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
                         android:textSize="30sp"
                         android:layout_marginEnd="5sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/views"/>
+                        android:src="@drawable/views_activity_page"/>
 
                 </LinearLayout>
 
@@ -117,15 +119,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1.3 K"
-                        android:textColor="#B7FFFFFF"
+                        android:text="450"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
                         android:textSize="30sp"
                         android:layout_marginEnd="5sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/comments"/>
+                        android:src="@drawable/comments_dashboard"/>
 
                 </LinearLayout>
 
