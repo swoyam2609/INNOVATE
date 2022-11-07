@@ -126,14 +126,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="535dp">
+        android:layout_marginTop="560dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Don’t have an account ?"
-            tools:layout_editor_absoluteX="82dp"
-            tools:layout_editor_absoluteY="627dp"
             android:textColor="#808080"/>
         <TextView
             android:id="@+id/create_account_login_page"
