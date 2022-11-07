@@ -16,16 +16,29 @@
         android:orientation="vertical">
 
 <!--        Text:My Profile-->
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My Profile"
-            android:textColor="#B9FFFFFF"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:layout_marginBottom="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginBottom="10sp">
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/appbar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INNOVATE"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginEnd="45sp"/>
+
+        </LinearLayout>
 
 
 <!--        Name and Dp-->
@@ -42,12 +55,8 @@
                 android:layout_weight="1.7"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:layout_gravity="bottom"
                 android:layout_marginRight="10dp">
-
-                <ImageView
-                    android:layout_width="40sp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/appbar"/>
 
                 <TextView
                     android:id="@+id/userName"
@@ -55,6 +64,7 @@
                     android:layout_height="wrap_content"
                     tools:text="Swoyam Siddharth"
                     android:textSize="35dp"
+                    android:paddingStart="15sp"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     />

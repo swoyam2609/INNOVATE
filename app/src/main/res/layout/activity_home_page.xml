@@ -18,15 +18,31 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="INNOVATE"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginBottom="15sp"/>
+            android:layout_marginBottom="10sp">
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/appbar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INNOVATE"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginEnd="45sp"/>
+
+        </LinearLayout>
+
+
 
 
 <!--        Name and Dp-->
@@ -43,12 +59,10 @@
                 android:layout_weight="1.7"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginRight="10dp">
+                android:layout_marginRight="10dp"
+                android:paddingStart="10sp">
 
-                <ImageView
-                    android:layout_width="40sp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/appbar"/>
+
 
                 <TextView
                     android:id="@+id/userName"
@@ -64,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Welcome Back!"
-                    android:textSize="28dp"
+                    android:textSize="23dp"
                     android:textColor="#CECCCC"
                     android:textStyle="normal"
                     />
@@ -86,11 +100,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DashBoard"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="0dp"/>
 
 
         <HorizontalScrollView
@@ -107,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20sp"
-                    android:layout_margin="20sp"
+                    android:layout_margin="15sp"
                     android:background="@drawable/round_corners_1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -178,9 +192,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20sp"
-                    android:layout_marginTop="20sp"
-                    android:layout_marginBottom="20sp"
-                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:layout_marginEnd="15sp"
                     android:background="@drawable/round_corners_1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -251,9 +265,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20sp"
-                    android:layout_marginTop="20sp"
-                    android:layout_marginBottom="20sp"
-                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:layout_marginEnd="15sp"
                     android:background="@drawable/round_corners_1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -324,9 +338,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20sp"
-                    android:layout_marginTop="20sp"
-                    android:layout_marginBottom="20sp"
-                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:layout_marginEnd="15sp"
                     android:background="@drawable/round_corners_1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -397,9 +411,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20sp"
-                    android:layout_marginTop="20sp"
-                    android:layout_marginBottom="20sp"
-                    android:layout_marginEnd="20sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:layout_marginEnd="15sp"
                     android:background="@drawable/round_corners_1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -478,7 +492,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Trending Projects"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginStart="10dp"

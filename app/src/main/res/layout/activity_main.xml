@@ -4,24 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splashScreen"
     android:orientation="vertical"
     android:background="@color/bg_blue"
     android:gravity="center">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="150sp"
         android:layout_height="wrap_content"
         android:src="@drawable/welcomeimage"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet consectetur. Vitae nibh pellentesque rhoncus eget in integer aliquet. Et metus tincidunt tellus purus. "
-        android:textColor="@color/white"
-        android:paddingTop="50sp"
-        android:paddingStart="50sp"
-        android:paddingEnd="50sp"/>
+        android:text="Upload your project, get your copyrights, showcase it to the world, connect with new people\nUPSKILL, UPLEARN, UPSOLVE"
+        android:textColor="#D9FFFFFF"
+        android:paddingStart="70sp"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:paddingEnd="70sp"/>
 
     <TextView
         android:id="@+id/signinButton"
@@ -30,11 +31,26 @@
         android:text="Sign In"
         android:textColor="@color/white"
         android:gravity="center"
-        android:textSize="20sp"
+        android:textSize="17sp"
+        android:textStyle="bold"
         android:padding="15sp"
         android:layout_marginStart="25sp"
         android:layout_marginEnd="25sp"
-        android:layout_marginTop="80sp"
+        android:layout_marginTop="60sp"
         android:background="@drawable/signin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#0B2337"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/create"/>
 
 </LinearLayout>
