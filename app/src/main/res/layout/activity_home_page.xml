@@ -153,8 +153,9 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/likes"
-                            android:layout_marginEnd="10sp"/>
+                            android:src="@drawable/heart_dashboard"
+                            android:layout_marginEnd="10sp"
+                            android:paddingStart="2dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -173,7 +174,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/comments"
+                            android:src="@drawable/comments_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -226,7 +227,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/likes"
+                            android:src="@drawable/heart_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -246,7 +247,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/comments"
+                            android:src="@drawable/comments_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -299,8 +300,9 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/likes"
-                            android:layout_marginEnd="10sp"/>
+                            android:src="@drawable/heart_dashboard"
+                            android:layout_marginEnd="10sp"
+                            android:paddingStart="3dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -319,7 +321,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/comments"
+                            android:src="@drawable/comments_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -372,8 +374,9 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/likes"
-                            android:layout_marginEnd="10sp"/>
+                            android:src="@drawable/heart_dashboard"
+                            android:layout_marginEnd="10sp"
+                            android:paddingStart="3dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -392,7 +395,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/comments"
+                            android:src="@drawable/comments_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -445,8 +448,9 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/likes"
-                            android:layout_marginEnd="10sp"/>
+                            android:src="@drawable/heart_dashboard"
+                            android:layout_marginEnd="10sp"
+                            android:paddingStart="3dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -465,7 +469,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:src="@drawable/comments"
+                            android:src="@drawable/comments_dashboard"
                             android:layout_marginEnd="10sp"/>
 
                         <TextView
@@ -548,7 +552,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
+                        android:src="@drawable/eyeviews"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -561,14 +565,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
+                        android:src="@drawable/heartcount"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -581,14 +586,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
+                        android:src="@drawable/comments_myprofile"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -601,7 +607,8 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -650,7 +657,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
+                        android:src="@drawable/eyeviews"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -663,14 +670,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
+                        android:src="@drawable/heartcount"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -683,14 +691,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
+                        android:src="@drawable/comments_myprofile"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -703,7 +712,8 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -752,7 +762,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
+                        android:src="@drawable/eyeviews"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -765,14 +775,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
+                        android:src="@drawable/heartcount"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -785,14 +796,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
+                        android:src="@drawable/comments_myprofile"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -805,7 +817,8 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -854,7 +867,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
+                        android:src="@drawable/eyeviews"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -867,14 +880,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
+                        android:src="@drawable/heartcount"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -887,14 +901,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
+                        android:src="@drawable/comments_myprofile"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -907,7 +922,8 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
@@ -956,7 +972,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/viewsnew"
+                        android:src="@drawable/eyeviews"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -969,14 +985,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/likesnew"
+                        android:src="@drawable/heartcount"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -989,14 +1006,15 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="match_parent"
-                        android:src="@drawable/commentsnew"
+                        android:src="@drawable/comments_myprofile"
                         android:paddingTop="3sp"
                         android:paddingBottom="3sp"
                         android:layout_marginEnd="5dp"/>
@@ -1009,7 +1027,8 @@
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:textStyle="normal"
-                        android:gravity="start"
+                        android:textAlignment="center"
+                        android:gravity="center"
                         android:layout_marginEnd="5dp"/>
 
                 </LinearLayout>
