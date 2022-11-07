@@ -18,6 +18,11 @@ class Login : AppCompatActivity() {
 
         userConstant.thisUser = null
 
+        binding?.backButton?.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
         binding?.btnLogin?.setOnClickListener {
             if (binding?.etUserName?.text?.isEmpty() == true){
                 Toast.makeText(this, "Enter your User Name", Toast.LENGTH_LONG).show()
