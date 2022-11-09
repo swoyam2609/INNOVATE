@@ -51,7 +51,7 @@ object userConstant{
         val user4 = userProfile(
             "Abhipsha",
             "Abhipsha Dash",
-            R.drawable.userswoyam,
+            R.drawable.maida,
             18,
             46,
             574,

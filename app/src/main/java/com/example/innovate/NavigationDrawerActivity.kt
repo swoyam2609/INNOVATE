@@ -1,4 +1,4 @@
-package com.example.innovate.ui
+package com.example.innovate
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
