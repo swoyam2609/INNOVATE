@@ -24,10 +24,6 @@ class HomePage : AppCompatActivity() {
 
         currentUser?.userImage?.let { binding?.miniProfile?.setImageResource(it) }
 
-        binding?.userImageId?.setOnClickListener {
-            val intent = Intent(this, MyProfile::class.java)
-            startActivity(intent)
-        }
 
         binding?.miniProfile?.setOnClickListener {
             val intent = Intent(this, MyProfile::class.java)
