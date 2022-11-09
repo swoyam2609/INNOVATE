@@ -12,8 +12,7 @@ class Login : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        var userFound = false
-        var passCorrect = false
+
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
@@ -32,23 +31,17 @@ class Login : AppCompatActivity() {
                 val users : ArrayList<userProfile> = userConstant.getUsers()
                 for(i in users){
                     if(binding?.etUserName?.text?.toString()==i.userName) {
-                        userFound=true
-                        userConstant.thisUser =i
-                        passCorrect = binding?.etPassword?.text?.toString()==i.userPassword
+                        if(binding?.etPassword?.text?.toString()==i.userPassword){
+                            val intent = Intent(this, HomePage::class.java)
+                            userConstant.thisUser =i
+                            startActivity(intent)
+                            finish()
+                        }
+                        else{
+                            Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
+                        }
                     }
                 }
-                val intent = Intent(this, HomePage::class.java)
-                if(userFound && passCorrect){
-                    startActivity(intent)
-                    finish()
-                }
-                else if(userFound && !passCorrect){
-                    binding?.passwordDialog?.text="Incorrect Password"
-                }
-                else{
-                    binding?.passwordDialog?.text="Invalid User"
-                }
-
             }
         }
     }

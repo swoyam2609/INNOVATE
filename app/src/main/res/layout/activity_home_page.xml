@@ -9,7 +9,8 @@
     android:padding="15sp"
     android:orientation="vertical"
     android:background="@color/bg_blue"
-    android:scrollbars="none">
+    android:scrollbars="none"
+    >
 
 <!--    Main Container-->
     <LinearLayout
@@ -25,10 +26,10 @@
             android:layout_marginBottom="10sp">
 
             <ImageView
-                android:id="@+id/appDrawerButton"
                 android:layout_width="40sp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/appbar"/>
+                android:src="@drawable/appbar"
+                android:layout_weight="1"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -120,8 +121,7 @@
         <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:scrollbars="none">
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -153,8 +153,7 @@
                         android:layout_height="wrap_content"
                         android:text="View more"
                         android:layout_marginBottom="15sp"
-                        android:textColor="#B3B3B3"
-                        android:textStyle="italic"/>
+                        android:textColor="#B3B3B3"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -227,7 +226,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="View more"
-                        android:textStyle="italic"
                         android:layout_marginBottom="15sp"
                         android:textColor="#B3B3B3"/>
 
@@ -301,7 +299,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="View more"
-                        android:textStyle="italic"
                         android:layout_marginBottom="15sp"
                         android:textColor="#B3B3B3"/>
 
@@ -376,7 +373,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="View more"
-                        android:textStyle="italic"
                         android:layout_marginBottom="15sp"
                         android:textColor="#B3B3B3"/>
 
@@ -451,7 +447,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="View more"
-                        android:textStyle="italic"
                         android:layout_marginBottom="15sp"
                         android:textColor="#B3B3B3"/>
 
@@ -536,7 +531,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="5dp">
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -641,7 +636,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="5dp">
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -746,7 +741,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="5dp">
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -851,7 +846,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="5dp">
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -955,7 +950,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="5dp">
+                android:paddingBottom="15dp">
 
                 <TextView
                     android:layout_width="match_parent"

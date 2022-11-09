@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.innovate.databinding.ActivityHomePageBinding
-import com.example.innovate.ui.NavigationDrawerActivity
 import com.example.innovate.userConstant.thisUser
 
 class HomePage : AppCompatActivity() {
@@ -32,11 +31,6 @@ class HomePage : AppCompatActivity() {
 
         binding?.miniProfile?.setOnClickListener {
             val intent = Intent(this, MyProfile::class.java)
-            startActivity(intent)
-        }
-
-        binding?.appDrawerButton?.setOnClickListener {
-            val intent = Intent(this, NavigationDrawerActivity::class.java)
             startActivity(intent)
         }
 

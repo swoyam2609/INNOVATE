@@ -13,29 +13,6 @@
         android:theme="@style/Theme.INNOVATE.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".NavigationDrawerActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".navactivity"
-            android:exported="false"
-            android:label="@string/title_activity_navactivity"
-            android:theme="@style/Theme.INNOVATE.NoActionBar.NoActionBar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".NavDrawerActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".appstart"
             android:exported="false">
             <meta-data
