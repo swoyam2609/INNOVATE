@@ -7,7 +7,9 @@
     tools:context=".ProjectActicity"
     android:orientation="vertical"
     android:background="@color/bg_blue"
-    android:padding="20sp">
+    android:paddingStart="20sp"
+    android:paddingEnd="20sp"
+    android:paddingTop="5sp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,7 +65,7 @@
                     android:text="SWASNER"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
+                    android:textSize="30sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
