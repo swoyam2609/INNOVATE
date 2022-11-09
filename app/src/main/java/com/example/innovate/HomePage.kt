@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.innovate.databinding.ActivityHomePageBinding
+import com.example.innovate.ui.NavigationDrawerActivity
 import com.example.innovate.userConstant.thisUser
 
 class HomePage : AppCompatActivity() {
