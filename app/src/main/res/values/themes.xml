@@ -22,5 +22,14 @@
     <style name="Theme.INNOVATE.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.INNOVATE.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-    
+
+    <style name="Theme.INNOVATE.NoActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.INNOVATE.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.INNOVATE.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

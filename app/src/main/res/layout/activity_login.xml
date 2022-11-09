@@ -110,10 +110,19 @@
 
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:textColor="#808080"
-                android:textColorHint="#808080"
+                android:textColor="#C0C0C0"
+                android:textColorHint="#BEBEBE"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/passwordDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Incorrect Password"
+            android:textColor="#FF0000"
+            android:layout_marginStart="15sp"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
