@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ProjectActicity"
     android:orientation="vertical"
-    android:background="@color/bg_blue">
+    android:background="@color/bg_blue"
+    android:paddingStart="20sp"
+    android:paddingEnd="20sp"
+    android:paddingTop="5sp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,54 +19,78 @@
         android:padding="10sp">
 
         <!--        Text:SWASNER-->
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SWASNER"
-            android:textColor="#D7FFFFFF"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            android:layout_marginBottom="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginBottom="10sp">
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/appbar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INNOVATE"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginEnd="45sp"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginBottom="15sp">
+            android:layout_marginBottom="20sp">
 
 
             <LinearLayout
                 android:layout_width="0sp"
-                android:layout_weight="1.2"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginEnd="20sp">
+                android:layout_marginEnd="10sp"
+                android:paddingStart="20sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SWASNER"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Likes"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:textStyle="bold"/>
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingStart="25sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="end">
+                    android:gravity="start"
+                    android:paddingStart="25sp">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="50sp"
                         android:layout_height="wrap_content"
-                        android:text="1.3K"
+                        android:text="1.2K"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        android:textSize="30sp"
-                        android:layout_marginEnd="5sp"/>
+                        android:textSize="20sp"
+                        android:layout_marginEnd="10sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
@@ -75,60 +102,64 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Views"
+                    android:text="Comments"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:textStyle="bold"/>
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingStart="25sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="end">
+                    android:gravity="start"
+                    android:paddingStart="25sp">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="50sp"
                         android:layout_height="wrap_content"
-                        android:text="2.3K"
+                        android:text="450"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        android:textSize="30sp"
-                        android:layout_marginEnd="5sp"/>
+                        android:textSize="20sp"
+                        android:layout_marginEnd="10sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/views_activity_page"/>
+                        android:src="@drawable/comments_dashboard"/>
 
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Comments"
+                    android:text="Views"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:textStyle="bold"/>
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingStart="25sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="end">
+                    android:gravity="start"
+                    android:paddingStart="25sp">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="50sp"
                         android:layout_height="wrap_content"
-                        android:text="450"
+                        android:text="2.5 K"
                         android:textStyle="bold"
                         android:textColor="@color/white"
-                        android:textSize="30sp"
-                        android:layout_marginEnd="5sp"/>
+                        android:textSize="20sp"
+                        android:layout_marginEnd="10sp"/>
 
                     <ImageView
                         android:layout_width="25sp"
                         android:layout_height="match_parent"
-                        android:src="@drawable/comments_dashboard"/>
+                        android:src="@drawable/views"/>
 
                 </LinearLayout>
 
@@ -139,18 +170,18 @@
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:src="@drawable/swasner"
-                android:background="@drawable/round_corners_1"
-                android:padding="5sp"/>
+                android:padding="10sp"
+                android:layout_marginEnd="10sp"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/round_corners_1"
+            android:background="@drawable/round_corners_3"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="12sp"
-            android:layout_marginBottom="10sp">
+            android:layout_marginBottom="20sp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -158,7 +189,7 @@
                 android:text="Problem"
                 android:layout_marginStart="5sp"
                 android:textSize="25sp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textStyle="bold"/>
 
             <TextView
@@ -171,7 +202,7 @@ People have died due to this, and we are still
 years from complete eradication.
 "
                 android:layout_marginStart="5sp"
-                android:textColor="#BEFFFFFF"
+                android:textColor="@color/black"
                 android:textSize="14sp"/>
 
 
@@ -179,16 +210,16 @@ years from complete eradication.
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/round_corners_1"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="12sp"
-            android:layout_marginBottom="10sp">
+            android:layout_marginBottom="20sp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Benefits"
+                android:gravity="center"
                 android:layout_marginStart="5sp"
                 android:textSize="25sp"
                 android:textColor="@color/white"
@@ -204,21 +235,32 @@ years from complete eradication.
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/round_corners_1"
+            android:background="@drawable/round_corners_3"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12sp"
-            android:layout_marginBottom="10sp">
+            android:padding="15sp"
+            android:layout_marginBottom="20sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Pitch"
+                android:textColor="@color/black"
+                android:layout_marginBottom="7sp"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:background="@drawable/round_corners_3">
 
                 <VideoView
                     android:id="@+id/videoplayer"
                     android:layout_width="match_parent"
-                    android:layout_height="250sp"/>
+                    android:layout_height="200sp"
+                    android:layout_gravity="center" />
 
             </FrameLayout>
 
@@ -227,26 +269,26 @@ years from complete eradication.
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/round_corners_1"
+            android:background="@drawable/round_corners_3"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="12sp"
-            android:layout_marginBottom="10sp">
+            android:layout_marginBottom="20sp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="More Details"
+                android:text="Details"
                 android:layout_marginStart="5sp"
                 android:textSize="25sp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Swasner which is a hyperbaric chamber which is designed to treat ARDS patients, a primary disease caused by Coronavirus. On metric it reduces dependency on ventilator and also requires the patient to spend less time with the ventilator. It is is a modified chamber-like device which can help a patient breathe better, and can be used without a ventilator using oxygen wall mounts. The helmet uses Nasal intermittent positive pressure ventilation (NIPPV) to provide oxygen surplus air to the patient. Swasner consists of three major components, the bubble (or visor), the plastic rings, and the neck seal. The plastic bubble is transparent, flexible, and encloses the head of the patient entirely, thus making it more comfortable for the patient."
-                android:textColor="#BEFFFFFF"
+                android:textColor="@color/black"
                 android:textSize="14sp"
                 android:layout_marginStart="5sp"/>
 
@@ -255,7 +297,7 @@ years from complete eradication.
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/round_corners_1"
+            android:background="@drawable/round_corners_3"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="12sp"
@@ -267,7 +309,7 @@ years from complete eradication.
                 android:text="Other Creators"
                 android:layout_marginStart="5sp"
                 android:textSize="25sp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginBottom="5sp"/>
 
@@ -275,6 +317,7 @@ years from complete eradication.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:gravity="center"
                 android:layout_marginBottom="5sp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -293,7 +336,7 @@ years from complete eradication.
                     android:layout_height="wrap_content"
                     android:text="Prince Pious Omm Prakash"
                     android:textSize="20sp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:layout_marginTop="4sp"
                     android:layout_marginBottom="4sp"
                     />
@@ -301,10 +344,12 @@ years from complete eradication.
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/profileAnirudhParida"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="5sp">
+                android:layout_marginBottom="5sp"
+                android:gravity="center">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/userImageId2"
@@ -322,7 +367,7 @@ years from complete eradication.
                     android:layout_height="wrap_content"
                     android:text="Anirudh Parida"
                     android:textSize="20sp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:layout_marginTop="4sp"
                     android:layout_marginBottom="4sp"/>
 
@@ -332,7 +377,8 @@ years from complete eradication.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="5sp">
+                android:layout_marginBottom="5sp"
+                android:gravity="center">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/userImageId3"
@@ -350,7 +396,7 @@ years from complete eradication.
                     android:layout_height="wrap_content"
                     android:text="Shubhank Nagar"
                     android:textSize="20sp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:layout_marginTop="4sp"
                     android:layout_marginBottom="4sp"
                     />
@@ -361,7 +407,8 @@ years from complete eradication.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="5sp">
+                android:layout_marginBottom="5sp"
+                android:gravity="center">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/userImageId4"
@@ -379,7 +426,7 @@ years from complete eradication.
                     android:layout_height="wrap_content"
                     android:text="Aditya Panda"
                     android:textSize="20sp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:layout_marginTop="4sp"
                     android:layout_marginBottom="4sp"
                     />
@@ -390,7 +437,8 @@ years from complete eradication.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="5sp">
+                android:layout_marginBottom="5sp"
+                android:gravity="center">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/userImageId5"
@@ -408,7 +456,7 @@ years from complete eradication.
                     android:layout_height="wrap_content"
                     android:text="Trideep Kumar Tripathy"
                     android:textSize="20sp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:layout_marginTop="4sp"
                     android:layout_marginBottom="4sp"
                     />

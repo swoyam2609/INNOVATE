@@ -2,6 +2,7 @@ package com.example.innovate
 
 object userConstant{
     var thisUser : userProfile? = null
+    var tempUser : userProfile? = null
 
     fun getUsers() : ArrayList<userProfile>{
         val usersArray : ArrayList<userProfile> = ArrayList<userProfile>()
