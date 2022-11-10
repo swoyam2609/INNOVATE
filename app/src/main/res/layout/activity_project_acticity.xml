@@ -65,7 +65,7 @@
                     android:text="SWASNER"
                     android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -260,8 +260,7 @@ years from complete eradication.
                     android:id="@+id/videoplayer"
                     android:layout_width="match_parent"
                     android:layout_height="200sp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/round_corners_3"/>
+                    android:layout_gravity="center" />
 
             </FrameLayout>
 
@@ -345,6 +344,7 @@ years from complete eradication.
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/profileAnirudhParida"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
