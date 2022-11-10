@@ -1,5 +1,6 @@
 package com.example.innovate
 
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,6 +29,8 @@ class ProjectActicity : AppCompatActivity() {
         binding?.profileAnirudhParida?.setOnClickListener {
             tempUser= thisUser
             thisUser= getUsers()[2]
+            val intent = Intent(this, MyProfile::class.java)
+            startActivity(intent)
         }
     }
 }
