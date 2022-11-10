@@ -4,8 +4,9 @@
         android:state_checked="true">
         <shape
             android:shape="rectangle">
+            <corners android:radius="10dp" />
             <solid
-                android:color="#154870"/>
+                android:color="#C60D293F"/>
 
         </shape>
     </item>
